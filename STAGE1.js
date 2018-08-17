@@ -7,7 +7,7 @@ var STAGE1 = {
 		this.load.spritesheet('coin', 'assets/coin.png', 16, 16);
 		this.load.spritesheet('teleporter', 'assets/teleporter.png', 16, 16);
 		this.load.spritesheet('stone', 'assets/stone.png', 16, 16);
-		game.load.tilemap('level', 'assets/2016096.json', null,Phaser.Tilemap.TILED_JSON);
+		game.load.tilemap('level', 'assets/2015074.json', null,Phaser.Tilemap.TILED_JSON);
 		this.load.audio('theme','audio/Super-Mario-Bros-Theme-Song.ogg');
 		this.load.audio('collect','audio/coin.wav');
 		this.load.audio('stomp','audio/stomp.wav');
